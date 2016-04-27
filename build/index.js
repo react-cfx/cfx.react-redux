@@ -5,10 +5,10 @@ bindActionCreators = require('redux').bindActionCreators;
 
 ReactRedux = require('react-redux');
 
-connect = function(stateName, actions, Component) {
+connect = function(getState, actions, Component) {
   return ReactRedux.connect(function(state) {
     return {
-      state: state[stateName]
+      state: getState(state)
     };
   }, function(dispatch) {
     return {

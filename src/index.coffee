@@ -1,10 +1,10 @@
 { bindActionCreators } = require 'redux'
 ReactRedux = require 'react-redux'
 
-connect = (stateName, actions, Component) ->
+connect = (getState, actions, Component) ->
   ReactRedux.connect(
     (state) ->
-      state: state[stateName]
+      state: getState state
     (dispatch) ->
       actions:
         bindActionCreators actions, dispatch
