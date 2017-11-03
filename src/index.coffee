@@ -1,5 +1,5 @@
-{ bindActionCreators } = require 'redux'
-ReactRedux = require 'react-redux'
+import { bindActionCreators } from 'redux'
+import * as ReactRedux from 'react-redux'
 
 connect = (getState, actions, Component) ->
   ReactRedux.connect(
@@ -10,5 +10,9 @@ connect = (getState, actions, Component) ->
         bindActionCreators actions, dispatch
   ) Component
 
-exports.Provider = ReactRedux.Provider
-exports.connect = connect
+{ Provider } = ReactRedux
+
+export {
+  Provider
+  connect
+}

@@ -1,1 +1,4 @@
-module.exports = require('./build/index.js');
+export {
+  Provider,
+  connect
+} from 'src'
