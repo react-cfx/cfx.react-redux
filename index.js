@@ -1,4 +1,4 @@
 export {
   Provider,
   connect
-} from 'src'
+} from './src/index.coffee'

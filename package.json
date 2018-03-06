@@ -1,6 +1,6 @@
 {
   "name": "cfx.react-redux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cfx.react-redux",
   "main": "dist/bundle.js",
   "scripts": {
@@ -23,17 +23,15 @@
   },
   "homepage": "https://github.com/react-cfx/cfx.react-redux#readme",
   "devDependencies": {
-    "coffee-require": "^0.0.3",
-    "ddeyes": "0.0.4",
-    "shelljs": "^0.7.8"
+    "coffee-require": "^0.0.4",
+    "ddeyes": "^0.0.6",
+    "shelljs": "^0.8.1"
   },
   "dependencies": {
-    "cfx.rollup-plugin-coffee2": "^0.1.0",
-    "coffeescript": "^2.0.2",
-    "react-redux": "^5.0.6",
+    "cfx.rollup-plugin-coffee2": "^0.1.4",
+    "react-redux": "^5.0.7",
     "redux": "^3.7.2",
-    "rollup": "^0.50.0",
-    "rollup-plugin-alias": "^1.4.0",
+    "rollup": "^0.56.4",
     "rollup-plugin-cleanup": "^2.0.0"
   }
 }
