@@ -1,4 +1,5 @@
 export {
   Provider,
-  connect
+  connect,
+  connectBindApp
 } from './src/index.coffee'
