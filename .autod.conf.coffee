@@ -24,7 +24,6 @@ export default
     'shelljs'
   ]
   exclude: [
-    './packages'
     './node_modules'
     './.autod.conf.js'
   ]
