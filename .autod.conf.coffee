@@ -6,11 +6,7 @@ export default
   plugin: ''
   test: []
   dep: [
-    'cfx.rollup-plugin-coffee2'
-    'react-redux'
-    'redux'
-  ]
-  devdep: [
+    'ddeyes'
     'del'
     'gulp'
     'gulp-better-rollup'
@@ -18,9 +14,13 @@ export default
     'gulp-sequence'
     'rollup'
     'rollup-plugin-cleanup'
-    'autod'
     'cfx.require-plugin-coffee'
-    'ddeyes'
+    'cfx.rollup-plugin-coffee2'
+    'react-redux'
+    'redux'
+  ]
+  devdep: [
+    'autod'
     'shelljs'
   ]
   exclude: [
